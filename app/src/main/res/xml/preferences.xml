@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <EditTextPreference
+        android:key="zip_preference"
+        android:title="@string/title_zip_preference"
+        android:summary="@string/summary_edittext_preference"
+        android:dialogTitle="@string/dialog_title_edittext_preference"
+        />
+    <ListPreference
+        android:key="unit_preference"
+        android:entries="@array/array_lp_entries"
+        android:entryValues="@array/array_lp_entry_values"
+        android:title="@string/str_lp_android_choice_title"
+        />
+
+</PreferenceScreen>
